@@ -49,11 +49,12 @@
                 </td>
                 
                 <td>
-                    <select tabindex="4" id="Tipo_p" name="Tipo_p" onclick="mostrar2()"/>
+                    <select tabindex="5" id="Tipo_p" name="Tipo_p" onclick="mostrar2()"/>
                		<option value="N"/>Ninguno
             		<option value="FF"/>Flor de fuego
                         <option value="FH"/>Flor de hielo
                         <option value="B"/>Bellota
+                        <option value="C"/>Campana
                 </td>
                 
                 <td>

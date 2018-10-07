@@ -24,6 +24,8 @@ function mostrar2(){
 		document.getElementById("img2").src="imagenes/Flor_de_hielo.png";
 	}else if(valor==="B"){
 		document.getElementById("img2").src="imagenes/Bellota.png";
+	}else if(valor==="C"){
+		document.getElementById("img2").src="imagenes/Super_Bell.png";
 	}
 
 }
