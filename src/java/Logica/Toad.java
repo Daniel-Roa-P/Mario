@@ -1,14 +1,34 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Logica;
 
-/**
- *
- * @author danbr
- */
-public class Toad {
+public class Toad extends Personaje{
+    
+    @Override
+    public void setApariencia(String apariencia){
+        
+        this.apariencia="Toad"+apariencia;
+        
+    }
+    
+    @Override
+    public void setDescripcion(){
+        
+        this.descripcion="subdito del reino champiñon con cabeza en forma de hongo muy veloz y con pies cortos";
+        
+    }
+    
+    @Override
+    public void setSalto(){
+        
+        this.salto=3;
+        
+    }
+    
+    @Override
+    public void setVelocidad(){
+        
+        this.velocidad=8;
+        
+    }
     
 }

@@ -1,14 +1,33 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Logica;
 
-/**
- *
- * @author danbr
- */
 public class Personaje {
     
+    protected String apariencia;
+    protected String descripcion; 
+    protected int salto;
+    protected int velocidad;
+    
+     
+
+    public void setApariencia(String Apariencia){};
+    public void setDescripcion(){};
+    public void setSalto(){};
+    public void setVelocidad(){};
+    
+    public String getApariencia() {
+        return apariencia;
+    }
+    
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public int getSalto() {
+        return salto;
+    }
+
+    public int getVelocidad() {
+        return velocidad;
+    }
 }

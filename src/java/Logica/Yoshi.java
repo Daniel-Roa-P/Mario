@@ -1,14 +1,20 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Logica;
 
-/**
- *
- * @author danbr
- */
 public class Yoshi {
+
+    protected String imagen="";
+    protected String poder="Ninguno";
     
+    public void setImagen(){};
+    public void setPoder(){};
+    
+    public String getPoder() {
+        return poder;
+    }
+
+    public String getImagen() {
+        return imagen;
+    }
+      
 }

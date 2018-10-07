@@ -1,14 +1,20 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Logica;
 
-/**
- *
- * @author danbr
- */
 public class PowerUp {
+
+    protected String aspecto="";
+    protected String habilidad="Ninguno";
+
+    public void setAspecto(){};
+    public void setHabilidad(){};
     
+    public String getAspecto() {
+        return aspecto;
+    }
+    
+    public String getHabilidad() {
+        return habilidad;
+    }
+  
 }

@@ -1,14 +1,16 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Logica;
 
-/**
- *
- * @author danbr
- */
-public class YoshiAmarillo {
+public class YoshiAmarillo extends Yoshi{
+    
+    @Override
+    public void setImagen(){
+        this.imagen="YoshiAmarillo";
+    }
+    
+    @Override
+    public void setPoder(){
+        this.poder="Amarillo, posee un cuerpo luminoso ideal para cuartos oscuros";
+    }
     
 }

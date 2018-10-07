@@ -1,14 +1,20 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Logica;
 
-/**
- *
- * @author danbr
- */
-public class Bellota {
+public class Bellota extends PowerUp {
+    
+    @Override
+    public void setAspecto(){
+        
+        this.aspecto="Ardilla";
+                
+    }
+    
+    @Override
+    public void setHabilidad(){
+        
+        this.habilidad="adopta unas alas de ardilla que le permiten planear y amortiguar caidas";
+        
+    }
     
 }

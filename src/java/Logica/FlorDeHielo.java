@@ -1,14 +1,20 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Logica;
 
-/**
- *
- * @author danbr
- */
-public class FlorDeHielo {
+public class FlorDeHielo extends PowerUp{
+    
+    @Override
+    public void setAspecto(){
+        
+        this.aspecto="Hielo";
+                
+    }
+    
+    @Override
+    public void setHabilidad(){
+        
+        this.habilidad="el personaje puede arrojar bolas de hielo con las que congela a sus rivales";
+        
+    }
     
 }

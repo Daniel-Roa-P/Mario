@@ -1,14 +1,20 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Logica;
 
-/**
- *
- * @author danbr
- */
-public class Campana {
+public class Campana extends PowerUp {
+    
+    @Override
+    public void setAspecto(){
+        
+        this.aspecto="Gato";
+                
+    }
+    
+    @Override
+    public void setHabilidad(){
+        
+        this.habilidad="dota un disfraz de gato que le perite al personaje trepar y aruñar";
+        
+    }
     
 }

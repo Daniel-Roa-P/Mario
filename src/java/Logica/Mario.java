@@ -1,14 +1,34 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Logica;
 
-/**
- *
- * @author danbr
- */
-public class Mario {
+public class Mario extends Personaje{
+   
+    @Override
+    public void setApariencia(String apariencia){
+        
+        this.apariencia="Mario"+apariencia;
+        
+    }
+    
+    @Override
+    public void setDescripcion(){
+        
+        this.descripcion="fontanero vestido de traje rojo y azul en busca de rescatar a Peach";
+        
+    }
+    
+    @Override
+    public void setSalto(){
+        
+        this.salto=5;
+        
+    }
+    
+    @Override
+    public void setVelocidad(){
+        
+        this.velocidad=5;
+        
+    }
     
 }
