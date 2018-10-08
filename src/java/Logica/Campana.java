@@ -13,7 +13,7 @@ public class Campana extends PowerUp {
     @Override
     public void setHabilidad(){
         
-        this.habilidad="dota un disfraz de gato que le perite al personaje trepar y aruñar";
+        this.habilidad="Posee un disfraz de gato que le permite al personaje trepar y arañar al rival";
         
     }
     

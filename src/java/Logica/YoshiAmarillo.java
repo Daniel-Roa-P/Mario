@@ -5,7 +5,7 @@ public class YoshiAmarillo extends Yoshi{
     
     @Override
     public void setImagen(){
-        this.imagen="YoshiAmarillo";
+        this.imagen="https://raw.githubusercontent.com/DanielRoa20171020077/Mario/master/src/java/Imagenes/YoshiAmarillo.png";
     }
     
     @Override

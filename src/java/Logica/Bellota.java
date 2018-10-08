@@ -13,7 +13,7 @@ public class Bellota extends PowerUp {
     @Override
     public void setHabilidad(){
         
-        this.habilidad="adopta unas alas de ardilla que le permiten planear y amortiguar caidas";
+        this.habilidad="Adopta unas alas de ardilla que le permiten planear y amortiguar caidas";
         
     }
     

@@ -31,6 +31,8 @@ public class PersonajeServlet extends HttpServlet {
     static PowerUp poder;
     static Personaje per;
     
+    String estado="nada";
+    
     public static void liskov1(Yoshi p){
         p.setImagen();
         p.setPoder();
@@ -82,12 +84,16 @@ public class PersonajeServlet extends HttpServlet {
         
         if("FF".equals(request.getParameter("Tipo_p"))){
              liskov2(new FlorDeFuego());
+             estado=poder.getClass().getSimpleName();
         } else if("FH".equals(request.getParameter("Tipo_p"))){
              liskov2(new FlorDeHielo());
+             estado=poder.getClass().getSimpleName();
         }else if("B".equals(request.getParameter("Tipo_p"))){
              liskov2(new Bellota());
+             estado=poder.getClass().getSimpleName();
         }else if("C".equals(request.getParameter("Tipo_p"))){
              liskov2(new Campana());
+             estado=poder.getClass().getSimpleName();
         }else if("N".equals(request.getParameter("Tipo_p"))){
              liskov2(new PowerUp());
         }
@@ -122,9 +128,9 @@ public class PersonajeServlet extends HttpServlet {
                         
                out.println("<td colspan=2>");
                
-               out.println("<img src=\"Imagenes/Mario.png\"></img>\n" +
-"");
-
+               out.println("<img src="+per.getApariencia()+"></img>");
+               out.println("<img src="+y.getImagen()+"></img>");
+               
                out.println("</td>");   
                
             out.println("</tr>");
@@ -136,7 +142,7 @@ public class PersonajeServlet extends HttpServlet {
                out.println("</td>");   
                 
                out.println("<td>");
-               out.println("<h2>"+per.getApariencia()+"</h2>");
+               out.println("<h2>"+per.getClass().getSimpleName()+" con "+estado+"</h2>");
                out.println("</td>");
                
             
@@ -160,7 +166,7 @@ public class PersonajeServlet extends HttpServlet {
                out.println("</td>");   
                 
                out.println("<td>");
-               out.println("<h2>"+per.getSalto()+"</h2>");
+               out.println("<h2>"+per.getSalto()+" puntos</h2>");
                out.println("</td>");
             
             out.println("</tr>");
@@ -172,7 +178,7 @@ public class PersonajeServlet extends HttpServlet {
                out.println("</td>");   
                 
                out.println("<td>");
-               out.println("<h2>"+per.getVelocidad()+"</h2>");
+               out.println("<h2>"+per.getVelocidad()+" puntos</h2>");
                out.println("</td>");
             
             out.println("</tr>");

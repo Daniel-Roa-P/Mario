@@ -13,7 +13,7 @@ public class FlorDeHielo extends PowerUp{
     @Override
     public void setHabilidad(){
         
-        this.habilidad="el personaje puede arrojar bolas de hielo con las que congela a sus rivales";
+        this.habilidad="El personaje puede arrojar bolas de hielo con las que congela a sus rivales";
         
     }
     

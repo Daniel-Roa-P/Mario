@@ -6,14 +6,14 @@ public class Mario extends Personaje{
     @Override
     public void setApariencia(String apariencia){
         
-        this.apariencia="Mario"+apariencia;
+        this.apariencia="https://raw.githubusercontent.com/DanielRoa20171020077/Mario/master/src/java/Imagenes/Mario"+apariencia+".png";
         
     }
     
     @Override
     public void setDescripcion(){
         
-        this.descripcion="fontanero vestido de traje rojo y azul en busca de rescatar a Peach";
+        this.descripcion="Fontanero vestido de traje rojo y azul que busca rescatar a la princesa Peach";
         
     }
     
