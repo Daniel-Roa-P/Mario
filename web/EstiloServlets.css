@@ -14,3 +14,9 @@ table{
 h2{   
     font-family:"Comic Sans MS";
 }
+
+img{
+    width:300px; 
+    height:300px;
+    margin:auto;
+}

@@ -5,7 +5,7 @@ public class YoshiRosa extends Yoshi {
     
     @Override
     public void setImagen(){
-        this.imagen="YoshiRosa";
+        this.imagen="Luigi.png";
     }
     
     @Override

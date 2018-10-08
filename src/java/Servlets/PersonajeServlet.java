@@ -1,6 +1,7 @@
 
 package Servlets;
 
+
 import Logica.Bellota;
 import Logica.Campana;
 import Logica.FlorDeFuego;
@@ -117,9 +118,13 @@ public class PersonajeServlet extends HttpServlet {
             out.println("</tr>");
            
             out.println("<tr>");
-            
+                
+                        
                out.println("<td colspan=2>");
-                   out.println("<h2>imagen</h2>");
+               
+               out.println("<img src=\"Imagenes/Mario.png\"></img>\n" +
+"");
+
                out.println("</td>");   
                
             out.println("</tr>");
